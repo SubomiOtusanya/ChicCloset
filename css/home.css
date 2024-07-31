@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.section1{
+  background-image: url(/images/Rectangle.png);
+  background-repeat: no-repeat;
+  height: 1000px;
+
+}
+
+.section1 h1{
+  font-family: playfair Display;
+  font-size: 220px;
+  text-align: center;
+  /* margin: 15px; */
+  /* border: 1px solid red; */
+  padding-top:230px;
+}
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.nav-links a{
+  color:#FFFFFF;
+  padding: 0 15px;
+  text-decoration: none;
+  font-family: Quattrocento;
+  
+  ;
+}
+
+.shop{
+  background-color: #FFBE20;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-family: Quattrocento
+  ;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.shop:active{
+  background-color: #FFFFFF;
+}
+
+.nav-search{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-search i{
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.shop-btn{
+  background-color: #FFBE20;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  font-family: Quattrocento
+  ;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  margin-top: 9rem;
+  margin-left: 235px;
+}
+
+
+
