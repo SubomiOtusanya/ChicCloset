@@ -12,9 +12,9 @@
 
 .section1 h1{
   font-family: playfair Display;
-  font-size: 250px;
+  font-size: 220px;
   text-align: center;
-  margin: 10px;
+  /* margin: 15px; */
   /* border: 1px solid red; */
   padding-top:230px;
 }
@@ -38,13 +38,14 @@
 
 .shop{
   background-color: #FFBE20;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 7px;
   font-family: Quattrocento
   ;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
+  border: none;
 }
 
 .shop:active{
@@ -60,6 +61,21 @@
 .nav-search i{
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.shop-btn{
+  background-color: #FFBE20;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  font-family: Quattrocento
+  ;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  margin-top: 9rem;
+  margin-left: 235px;
 }
 
 
